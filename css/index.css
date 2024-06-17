@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+main {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.link {
+    font-family: 'Inter', sans-serif;
+    color: #B8BECD;
+    font-weight: 300;
+}
+
+.link.active {
+    color: #202336;
+    font-weight: 600;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    margin: 32px 8px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.block {
+    margin-bottom: 120px;
+}
+
+.login {
+    border-radius: 8px;
+    border: 1px solid #FB8F1D;
+    background-color: rgba(0, 0, 0, 0);
+    width: 132px;
+    height: 44px;
+    color: #FB8F1D;
+    margin: 0 16px;
+}
+
+.orange {
+    border-radius: 8px;
+    background: #FB8F1D;
+    color: #ffffff;
+    width: 132px;
+    height: 44px;
+    border: none;
+    font-weight: 600;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.intro--wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro--title {
+    font-family: 'Playfair Display', sans-serif;
+    margin-bottom: 74px;
+    font-size: 64px;
+}
+
+.intro--subtitle {
+    font-size: 22px;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.intro--input {
+    border-radius: 6px;
+    border: 0.8px solid #AFB0B9;
+    width: 220px;
+    height: 52px;
+    color: #4A4C53;
+    padding: 31px;
+}
+
+.input--group {
+    margin: 24px 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.explore {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 102px;
+}
+
+.title {
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.destinations--row {
+    margin: 48px 64px;
+    justify-content: flex-start;
+}
+
+.destinations--title {
+    margin-right: 16px;
+}
+
+.view {
+    color: #FB8F1D;
+    justify-self: flex-end;
+    align-self: center;
+}
+
+.explore--title {
+    margin-bottom: 32px;
+}
+
+.explore--text {
+    margin-bottom: 32px;
+}
+
+.text {
+    color: #7D7987;
+    font-family: Mulish;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 176.471% */
+}
+
+.destinations {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.destinations--img--rows {
+    justify-content: space-around;
+}
+
+.destination--img {
+    border-radius: 32px 0;
+}
+
+.guides {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.guides--wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.emotions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.icons > svg {
+    margin-right: 8px;
+}
+
+.emotions--wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.author {
+    color: #000;
+    font-family: 'Inter';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 218.182% */
+}
+
+.role {
+    color: rgba(0, 0, 0, 0.85);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 266.667% */
+}
+
+.emotions--title {
+    margin-bottom: 72px;
+}
+
+.emotions--text {
+    margin-bottom: 36px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    padding-top: 64px;
+    background-color: #F9F9FB;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer--column * {
+    margin-bottom: 16px;
+}
+
+.footer--container {
+    display: flex;
+    flex-direction: row;
+    gap: 128px;
+}
